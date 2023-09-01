@@ -1,4 +1,4 @@
-package com.ludigi.springdataupsert;
+package com.ludigi.springdataupsert.primitive;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

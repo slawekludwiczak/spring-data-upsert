@@ -1,6 +1,5 @@
-package com.ludigi.springdataupsert;
+package com.ludigi.springdataupsert.primitive;
 
-import com.ludigi.springdataupsert.uuid.ExampleUUIDRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,12 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringDataUpsertApplication implements CommandLineRunner {
     private final ExampleEntityRepository exampleEntityRepository;
-    private final ExampleUUIDRepository exampleUUIDRepository;
 
-    public SpringDataUpsertApplication(ExampleEntityRepository exampleEntityRepository,
-                                       ExampleUUIDRepository exampleUUIDRepository) {
+    public SpringDataUpsertApplication(ExampleEntityRepository exampleEntityRepository) {
         this.exampleEntityRepository = exampleEntityRepository;
-        this.exampleUUIDRepository = exampleUUIDRepository;
     }
 
     public static void main(String[] args) {

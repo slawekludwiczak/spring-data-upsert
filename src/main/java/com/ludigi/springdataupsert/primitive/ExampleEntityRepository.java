@@ -1,4 +1,4 @@
-package com.ludigi.springdataupsert;
+package com.ludigi.springdataupsert.primitive;
 
 import org.springframework.data.repository.CrudRepository;
 
